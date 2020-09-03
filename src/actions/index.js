@@ -8,6 +8,7 @@ import {
   EDIT_STREAM,
   DELETE_STREAM,
 } from './types';
+import { useHistory } from 'react-router-dom';
 
 export const signIn = userId => {
   return {
